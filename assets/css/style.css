@@ -1,0 +1,39 @@
+h1 {
+	background-color: #EE7305;
+	/*margin: auto;*/
+}
+
+#headerP {
+	background-color: #E6C406;
+}
+
+h2 {
+	background-color: #2AE106;
+}
+
+#youLoseP {
+	background-color: #15ECE5;
+}
+
+#imgDiv {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+body {
+	background-color: #1A31E4;
+}
+
+img {
+	width: 250px;
+    height: 250px;
+}
+
+h3 {
+	background-color: #0B724A;
+}
+
+#scoreBox {
+	background-color: #0B724A;
+}
