@@ -18,7 +18,27 @@ console.log("numberOptions");
 
 }
 */
-/*
+
+
+function random_result(19, 120) {
+	// body...
+	return Math.floor(Math.random() * (120 - 19 + 1) + 19);
+}
+
+
+
+
+
+
+random_result = Math.floor(Math.random() * 120 - 19); 
+
+console.log(random_result);
+
+$("#result").html('Random Results: ');
+
+
+
+
 for (var i = 0; i < 4; i++) {
 
 	var random = Math.floor(Math.random() * 12);
@@ -33,4 +53,3 @@ for (var i = 0; i < 4; i++) {
 		$(".crystals").append(crystal);
 }
 
-*/
