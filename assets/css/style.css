@@ -5,12 +5,11 @@ h1 {
 	/*margin: auto;*/
 /*	color: blue;
 */	/* opacity: .75; */
-	tr
-	
+		
 }
 
 header.transbox { 
-	opacity: 0.9;
+	opacity: 0.85;
 	filter: alpha(opacity=60);
 } 
 
@@ -28,6 +27,11 @@ header.transbox h1{
 h2 {
 	/*background-color: #2AE106;*/
 	background-color: #cccccc;
+	text-align: center;
+	border: 5px dashed #EE7305;
+	opacity: 0.85;
+	font-weight: bold;
+	color: blue;
 }
 
 #youLoseP {
@@ -55,7 +59,12 @@ img {
 }
 
 h3 {
-	background-color: #0B724A;
+	/* background-color: #0B724A; */
+	background-color: #cccccc;
+	text-align: center;
+	border: 5px dashed #EE7305;
+	opacity: 0.85;
+	filter: alpha(opacity=60);
 }
 
 #scoreBox {
