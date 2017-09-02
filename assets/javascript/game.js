@@ -1,7 +1,7 @@
 alert("Collect the Crystals before Jesse pinkman smokes them all!");
 
 
-/*
+/*OLD ACTIVITY
 var targetNumber 112;
 
 $("#number-to-guess").text(targetNumber);
@@ -20,23 +20,57 @@ console.log("numberOptions");
 */
 
 
+/*STILL WORKING ON IT
 function random_result(19, 120) {
 	// body...
 	return Math.floor(Math.random() * 102) + 19;
 	console.log(random_result);
 
 	$("#result").html('Random Results: ');
-
-}
-
-
-
+}*/
 
 // random_result = Math.floor(Math.random() * 120 - 19); 
 
 // console.log(random_result);
 
 // $("#result").html('Random Results: ');
+
+
+
+var random_result;
+var lost = 0;
+var win = 0;
+var previous = 0;
+
+
+
+var resetAndStart = function() {
+	$("#imgDiv").empty();
+
+	var images = [
+		'assets/images/tumblr_nhm15jkl6s1tgfqygo2_500.gif'.
+		'assets/images/giphy (2).gif'
+		'assets/images/giphy (3).gif'
+		'assets/images/tumblr_oktm832xWw1vsjcxvo1_500.gif'];
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
 
 
 
