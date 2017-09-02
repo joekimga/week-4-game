@@ -35,7 +35,12 @@ h2 {
 }
 
 #youLoseP {
-	background-color: #15ECE5;
+	background-color: #cccccc;
+	text-align: center;
+	border: 5px dashed #EE7305;
+	opacity: 0.85;
+	filter: alpha(opacity=60);
+	color: blue;
 }
 
 #imgDiv {
@@ -58,14 +63,14 @@ img {
     height: 250px;
 }
 
-h3 {
-	/* background-color: #0B724A; */
+/* h3 {
+	background-color: #0B724A;
 	background-color: #cccccc;
 	text-align: center;
 	border: 5px dashed #EE7305;
 	opacity: 0.85;
 	filter: alpha(opacity=60);
-}
+} */
 
 #scoreBox {
 	background-color: #0B724A;
