@@ -22,7 +22,7 @@ console.log("numberOptions");
 
 function random_result(19, 120) {
 	// body...
-	return Math.floor(Math.random() * (120 - 19 + 1) + 19);
+	return Math.floor(Math.random() * (102) + 19);
 }
 
 
