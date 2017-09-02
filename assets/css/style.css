@@ -22,6 +22,11 @@ header.transbox h1{
 #headerP {
 	/*background-color: #E6C406;*/
 	background-color: #cccccc;
+	text-align: center;
+	border: 5px dashed #EE7305;
+	opacity: 0.85;
+	font-weight: bold;
+	color: blue;
 }
 
 h2 {
@@ -54,8 +59,8 @@ body {
 	background-image: url("http://images6.fanpop.com/image/photos/37300000/Breaking-Bad-breaking-bad-37307233-500-281.jpg");
 	/*background-repeat: no-repeat;*/
 	background-position: center;
-	width: 1000px;
-	height: 500px;
+	/*width: 1000px;
+	height: 500px;*/
 }
 
 img {
@@ -74,4 +79,16 @@ img {
 
 #scoreBox {
 	background-color: #0B724A;
+}
+
+
+@media screen and (max-width: 768px) {
+  body {
+    background-color: #333;
+  }
+
+  #imgDiv {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
 }

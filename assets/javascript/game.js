@@ -1,4 +1,4 @@
-alert("Are you ready to play?");
+alert("Collect the Crystals before Jesse pinkman smokes them all!");
 
 
 /*
@@ -22,19 +22,21 @@ console.log("numberOptions");
 
 function random_result(19, 120) {
 	// body...
-	return Math.floor(Math.random() * (102) + 19);
+	return Math.floor(Math.random() * 102) + 19;
+	console.log(random_result);
+
+	$("#result").html('Random Results: ');
+
 }
 
 
 
 
+// random_result = Math.floor(Math.random() * 120 - 19); 
 
+// console.log(random_result);
 
-random_result = Math.floor(Math.random() * 120 - 19); 
-
-console.log(random_result);
-
-$("#result").html('Random Results: ');
+// $("#result").html('Random Results: ');
 
 
 
@@ -44,12 +46,12 @@ for (var i = 0; i < 4; i++) {
 	var random = Math.floor(Math.random() * 12) + 1;
 	console.log(random);
 
-	var crystal = $("<div>");
-		crystal.attr({
-			"class": 'crystal'
+	var imgDiv = $("<div>");
+		imgDiv.attr({
+			"id": 'imgDiv'
 			"data-random": random
 
 			});
-		$(".crystals").append(crystal);
+		$("#imgDiv").append(imgDiv);
 }
 
