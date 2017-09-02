@@ -41,7 +41,7 @@ $("#result").html('Random Results: ');
 
 for (var i = 0; i < 4; i++) {
 
-	var random = Math.floor(Math.random() * 12);
+	var random = Math.floor(Math.random() * 12) + 1;
 	console.log(random);
 
 	var crystal = $("<div>");
